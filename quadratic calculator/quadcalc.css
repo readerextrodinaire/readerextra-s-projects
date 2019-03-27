@@ -1,0 +1,60 @@
+body {
+    background-color: grey;
+    margin: 0px;
+}
+h1 {
+    background-color: #727375;
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+h2 {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+    margin-top: 0px;
+    font-size: 40px;
+    margin-left: 10px;
+}
+input {
+    background-color: #727375;
+    border-style: double;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+    border-width: 5px;
+    font-weight: bold;
+}
+button {
+    background-color: #727375;
+    border-style: double;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    color: black;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 14px;
+}
+.no {
+    text-decoration: none;
+}
+canvas {
+    background-color: #727375;
+    border-color: black;
+    border-style: inset;
+    border-width: 5px;
+    margin-right: 75px;
+    margin-top: -190px;
+    padding: 30px;
+}

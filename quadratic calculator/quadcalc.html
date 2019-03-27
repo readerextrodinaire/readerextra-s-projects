@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="quadcalc.css" />
+        <title>quadratic calculator</title>
+        <script src="quadcalc.js"></script>
+    </head>
+    <body class="container-fluid">
+        <h1>
+            this program can solve quadratic equations.<br />
+            answer the following questions to begin.
+        </h1>
+        <div id="quad" class="radic container-fluid" style="margin-left: 20px">
+            <div id="nums" class="quest">
+                <h2 class="container-fluid">
+                    what is your A digit?<input type="text" size ="4" id="a">
+                </h2>
+                <h2 class="container-fluid">
+                    what is your B digit?<input type="text" size ="4" id="b">
+                </h2>
+                <h2 class="container-fluid">
+                    what is your C digit?<input type="text" size ="4" id="c">
+                </h2>
+            </div>
+            <canvas id="canvas" width="290" height="270" style="float: right;"></canvas>
+        </div>
+        <button type="button" name="formula" onclick="quadraticformula();" style="float: left;"><strong>calculate</strong></button>
+        <h2 id="output" class="no" style="margin-left: 24px">
+            your answer is x = __ , __ .
+        </h2>
+  </body>
+</html>
