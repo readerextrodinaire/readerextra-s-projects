@@ -1,0 +1,36 @@
+body {
+    background-color: #03634e;
+    border-style: inset;
+    border-color: rgb(1, 32, 32);
+    border-width: 12px;
+}
+.start {
+    background-color: yellow;
+    border-style: double;
+    border-color: black;
+    border-width: 9px;
+    border-radius: 50%;   
+    color: black;
+    font-size: 95%;
+    font-family: cursive;
+    text-decoration: underline;
+    margin-left: 43%;
+    margin-right: 33%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 5%;
+}
+canvas {
+    display: block;
+    position: initial;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-style: double;
+    border-width: 15px;
+    border-color: rgb(1, 32, 32);
+    border-top: none;
+    border-bottom: none;
+}

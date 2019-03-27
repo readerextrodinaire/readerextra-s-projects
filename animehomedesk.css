@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    font-family: Brush Script MT;
+    background-image: url(https://civicssite.github.io/blueberryparty.github.io/animebackground.jpg);
+    background-color: #008080;
+    border-style: inset;
+    border-color: #490922;
+    border-width: 10px;
+  }
+  h1 {
+    font-size: 75px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #094717;
+    padding: 25px;
+  }
+  h2 {
+    font-size: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -50px;
+    text-align: center;
+    color: #290223;
+    margin-bottom: 50px;
+    padding: 25px;
+  }
+  table th {
+    text-align: left;
+    border: 1px solid #240c15;
+    padding: 4px 8px;
+    background-color: #2D383A;
+    margin: -100px;
+  }
+  table td {
+    text-align: left;
+    border: 1px solid #240c15;
+    padding: 4px 8px;
+    background-color: #02142fd9;
+    margin: -100px;
+  }
+  img {
+    width: 95.68px;
+    height: 78.68px;
+  }
+  .side {
+    background-color: #2D383A;
+  }
+  .topnav {
+overflow: hidden;
+background-color: #065953;
+background-image: url(https://civicssite.github.io/blueberryparty.github.io/dark.jpg);
+margin: 0px;
+margin-bottom: 0px;
+margin-top: -50px;
+font-size: 22px;
+padding-left: 130px;
+padding-right: 127px;
+padding-bottom: 1px;
+border-width: 4.5px;
+border-color: #240c15;
+border-style: solid;
+border-left: none;
+border-right: none;
+}
+.topnav a {
+float: left;
+display: block;
+color: #490922;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 54px;
+padding-right: 54px;
+text-decoration: underline;
+text-decoration-color: #0c2939;
+}
+.topnav a:hover {
+background-image: url(https://civicssite.github.io/blueberryparty.github.io/darker.jpg);
+border-style: inset;
+border-color: #240c15;
+border-width: 2px;
+background-color: #ddd;
+color: black;
+}
+.head {
+margin: 0px;
+background-image: url(https://civicssite.github.io/blueberryparty.github.io/darkerer.jpg);
+}
