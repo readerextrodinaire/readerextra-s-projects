@@ -1,0 +1,27 @@
+    body {
+      height: 100%;
+      margin: 0;
+      background-color: #2f3030;
+    }
+
+    audio {
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 35%;
+      background-color: #303030;
+      border-style: double;
+      border-radius: 75%;
+      border-width: 15.5px;
+      border-color: black;
+      color: blue;
+      height: 80px;
+    }
+
+    img {
+      background-color: black;
+      border-radius: 20px;
+      border-style: solid;
+      border-color: black;
+      border-width: thick;
+    }
