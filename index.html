@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <title>ReaderExtra's Projects</title>        
@@ -10,21 +9,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="testsite.css">
+    <script src="main.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="header container-fluid">
+    <div class"dropdown">
+      <img src="IMG_2932.png" alt="logo" width="100" height="100" class="img" onclick="nav();" id="img">
+        <div id="mydropdown" class="dropdown-content">  
+          <h3 class="dropdown" onclick="one();">Finished Projects</h3>
+          <div id="drop2" class="dropdown-content" style="margin-left: 255px; margin-top: -125px;">
+            <h3><a href="ALMproject.html">ALM Project</a></h3>
+            <h3><a href="animeperiod.html">Anime Periodic Table</a></h3>
+            <h3><a href="Freedom_Is_Slavery.html">Freedom Is Slavery</a></h3>
+            <h3><a href="longurl.html">Longurl</a></h3>
+            <h3><a href="blue.html">blueberry Party Website</a></h3>
+          </div>
+          <h3 class="dropdown" onclick="two();">In Progress</h3>
+          <div id="drop3" class="dropdown-content" style="margin-left: 255px; margin-top: -125px;">
+              <h3><a href="quadcalc.html">Calculator</a></h3>
+              <h3><a href="snake_game.html">Snake Game</a></h3>
+              <h3><a href="bored.html">Bored game</a></h3>
+          </div>
+        </div>
+    </div>
+    <div class="header container-fluid" id="header">
      <h1 class="">Hello, welcome to my testsite</h1>
-     <h2 class="container-fluid">
+     <h2 class="container">
         If you are seeing this, then you are currently looking at all of my codings projects.
         this will vary from HTML to javascript and a little python. these are a few of the
         works I do. I am a novice programmer and I am learning other languages like Java, C#,
         C++, and Rust. the projects here some are just tests i do when I'm trying to do
         something new, and if I can find a way to use my experiments in a functional product,
         then it will be placed in the finished products. Below are two buttons. One goes to
-        my in-progress projects, and the other goes to finished projects, have fun looking around<a href="bored.html">!</a>
+        my in-progress projects, and the other goes to finished projects, have fun looking around!
      </h2>
  
-     <div class="section container-fluid" style="margin: 25px; margin-left: 15%;">
+     <div class="section container" style="margin: 25px; margin-left: 8%;">
       <a href="inprogress.html"  class="project" style="font-size: 65px; float: left;">in<br />progress</a>
       <a href="finishedprojects.html"  class="github" style="font-size: 65px;">  finnished<br />projects  </a>
      </div>
