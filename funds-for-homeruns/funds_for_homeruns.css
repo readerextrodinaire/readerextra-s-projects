@@ -1,0 +1,94 @@
+body{
+    background-image: radial-gradient(#47cc4b, #27f42d, #47cc4b);
+    text-align: center;
+    font-family: cursive;
+}
+.bg {
+  position: relative;
+  top: 0; 
+  left: 0; 
+	
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;  
+}
+.back{
+    margin-top: 10px;
+    background-color: #d6ffd7;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+    border-radius:20px;
+    margin: 15px;
+}
+.back-itm {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 75px;
+    text-decoration: underline;
+    text-decoration-color: rgb(119, 119, 119);
+    color: #020642;
+}
+.back-itms {    
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: rgb(119, 119, 119);
+    color: #330d04;
+}
+.back-int {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: rgb(119, 119, 119);
+    color: #332404;
+}
+.back-itmn {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+p {
+    font-size: 30px;
+}
+li {
+    font-size: 30px;
+}
+.slide {
+    background-color: #96d3979a;
+    font-size: 30px;
+}
+.info {
+    background-color: rgb(216, 133, 133);
+    color: #330d04;
+}
+.tick {
+    background-color: rgb(133, 186, 216);
+    color: #041733;
+}
+.team {
+    background-color: rgb(216, 208, 133);
+    color: #332404;
+}
+.border {
+    margin-bottom: 10px;
+    border: none;
+}
+
+.infos {
+    float: right;
+    background-color: rgb(216, 133, 133);
+    color: #330d04;
+}
+li {
+    color: black;
+}
+.load {
+    background-image: radial-gradient(green, darkgreen);  
+}
+input {
+    width: 300px;
+    background-color: rgb(39, 0, 39);
+    color: white;
+}

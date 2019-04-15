@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <title>Ticket Puchase</title>
+            <link rel="stylesheet" href="funds_for_homeruns.css">
+            <script src="funds_for_homeruns.js"></script>
+        </head>
+        <body class="container" background="funds_for_homerun.png">
+            <div class="back back-itmn">
+                <h1 class="back-itm">Funds For HomeRuns</h1>
+                <h2 class="back-itms">Ticket Purchase</h2>
+                <div class="container">
+                    <div id="accordion">
+                      <div class="card info">
+                        <div class="card-header">
+                          <a class="collapsed card-link back-itms items" data-toggle="collapse" href="#collapseOne">
+                            Select Type And Amount
+                        </div>
+                        <div class="collapse show slide" data-parent="#accordion">
+                          <div class="card-body slide" id="info">
+                              <div id="regTic">
+                                <button class="btn btn-secondary btn-lg" onclick="regTic();"> regular tickets </button>
+                                <button type="button" class="btn btn-primary info btn-outline-danger" data-toggle="collapse" data-target="#info1">Info</button>
+                                <div id="info1" class="collapse">
+                                    <h3 class="back-int">Includes</h3>
+                                    <ul>
+                                        <li>Catering</li>
+                                        <li>seats during games</li>
+                                    </ul>
+                                </div>
+                              </div>
+                              <div id="allTic">
+                                <button class="btn btn-secondary btn-lg" onclick="allTic();"> Allergen tickets </button>
+                                <button type="button" class="btn btn-primary info btn-outline-danger" data-toggle="collapse" data-target="#info2">Info</button>
+                                <div id="info2" class="collapse">
+                                    <h3 class="back-int">Includes</h3>
+                                    <ul>
+                                        <li>allgen free Catering</li>
+                                        <li>seats during games</li>
+                                    </ul>
+                                </div>
+                              </div>
+                              <div id="supTic">
+                                <button class="btn btn-secondary btn-lg" onclick="supTic();"> Super tickets </button>
+                                <button class="btn btn-primary info btn-outline-danger" data-toggle="collapse" data-target="#info3">Info</button>
+                                <div id="info3" class="collapse">
+                                    <h3 class="back-int">Includes</h3>
+                                    <ul>
+                                        <li>Catering</li>
+                                        <li>seats during games</li>
+                                        <li>chance to play in special game for pizes</li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card team">
+                        <div class="card-header">
+                          <a class="collapsed card-link back-itms team" data-toggle="collapse" href="#collapseTwo">
+                          Checkout
+                        </a>
+                        </div>
+                        <div class="collapse show" data-parent="#accordion">
+                          <div class="card-body slide" id="cheque">
+                            <button class="btn btn-success" disabled id="check">
+                                <span class="spinner-grow spinner-grow-lg load"></span>
+                                    Waiting For <br /> Above..
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card tick">
+                        <div class="card-header">
+                          <a class="collapsed card-link back-itms tick" data-toggle="collapse" href="#collapseThree">
+                            Meet The Team
+                          </a>
+                        </div>
+                        <div class="collapse show" data-parent="#accordion">
+                          <div class="card-body slide">
+                            <button class="btn btn-success" disabled>
+                                <span class="spinner-grow spinner-grow-lg load"></span>
+                                    Waiting For <br /> Above..
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>     
+            </div>
+        </body>
+    </html>
