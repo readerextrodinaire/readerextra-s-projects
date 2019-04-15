@@ -6,7 +6,7 @@ function regTic() {
     var ticNum = document.createElement("input");
     ticNum.style.width = (4);
     document.getElementById("info").appendChild(ticNum);
-    ticNum.addEventListener("dblclick", regMath);
+    ticNum.addEventListener("oninput", regMath);
     function regMath() {
         var check = document.getElementById("check");
         check.style.display = ("none");
@@ -19,7 +19,6 @@ function regTic() {
         var Pin = document.createElement("input");
         name.style.width = (2);
         document.getElementById("cheque").appendChild(Pin);
-
     }
 }
 regTic();
