@@ -34,3 +34,6 @@
     function ten() {
       document.getElementById("myPi").style.fontSize = "1000px";
     }
+    function x() {
+      document.getElementById("myPi").style.fontSize = "1000000px";
+    }
