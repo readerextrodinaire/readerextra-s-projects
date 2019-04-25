@@ -12,7 +12,14 @@
             <script src="funds_for_homeruns.js"></script>
         </head>
         <body class="container" background="funds_for_homerun.png">
-            <div class="back back-itmn">
+            <div class="back back-itmn" style="background-color: #dc3545;">
+              <h1 class="danger bg-danger text-white">Sorry, This page is Down For Security reasons!</h1>
+            </div>
+            <div class="back back-itmn" style="background-color: #ffc107; font-size: 40px;">
+                <h1 class="dangerer bg-warning text-white">Please do not try to enter your credit card information here as this event is purely fictional,
+                   and there is a high risk of your information getting leaked, as this site is not yet encyripted.</h1>
+              </div>
+              <div class="back back-itmn">
                 <h1 class="back-itm">Funds For HomeRuns</h1>
                 <h2 class="back-itms">Ticket Purchase</h2>
                 <div class="container">
@@ -25,7 +32,7 @@
                         <div class="collapse show slide" data-parent="#accordion">
                           <div class="card-body slide" id="info">
                               <div id="regTic">
-                                <button class="btn btn-secondary btn-lg" onclick="regTic();"> regular tickets </button>
+                                <button class="btn btn-secondary btn-lg" onclick="notava();"> regular tickets </button>
                                 <button type="button" class="btn btn-primary info btn-outline-danger" data-toggle="collapse" data-target="#info1">Info</button>
                                 <div id="info1" class="collapse">
                                     <h3 class="back-int">Includes</h3>
@@ -35,19 +42,8 @@
                                     </ul>
                                 </div>
                               </div>
-                              <div id="allTic">
-                                <button class="btn btn-secondary btn-lg" onclick="allTic();"> Allergen tickets </button>
-                                <button type="button" class="btn btn-primary info btn-outline-danger" data-toggle="collapse" data-target="#info2">Info</button>
-                                <div id="info2" class="collapse">
-                                    <h3 class="back-int">Includes</h3>
-                                    <ul>
-                                        <li>allgen free Catering</li>
-                                        <li>seats during games</li>
-                                    </ul>
-                                </div>
-                              </div>
                               <div id="supTic">
-                                <button class="btn btn-secondary btn-lg" onclick="supTic();"> Super tickets </button>
+                                <button class="btn btn-secondary btn-lg" onclick="notava();"> Super tickets </button>
                                 <button class="btn btn-primary info btn-outline-danger" data-toggle="collapse" data-target="#info3">Info</button>
                                 <div id="info3" class="collapse">
                                     <h3 class="back-int">Includes</h3>
@@ -78,9 +74,9 @@
                         </div>
                       </div>
                       <div class="card tick">
-                        <div class="card-header">
+                        <div class="card-header" style="background-color:rgb(133, 186, 216);">
                           <a class="collapsed card-link back-itms tick" data-toggle="collapse" href="#collapseThree">
-                            Meet The Team
+                            Get Reciept
                           </a>
                         </div>
                         <div class="collapse show" data-parent="#accordion">
