@@ -6,7 +6,7 @@ function regTic() {
     var ticNum = document.createElement("input");
     ticNum.style.width = (4);
     document.getElementById("info").appendChild(ticNum);
-    ticNum.addEventListener("oninput", regMath);
+    ticNum.addEventListener("dblclick", regMath);
     function regMath() {
         var check = document.getElementById("check");
         check.style.display = ("none");
@@ -19,6 +19,14 @@ function regTic() {
         var Pin = document.createElement("input");
         name.style.width = (2);
         document.getElementById("cheque").appendChild(Pin);
+
     }
 }
+function notava() {
+    var alltic = document.getElementById("alltic");
+    var suptic = document.getElementById("supTic");
+    alltic.textContent = "sorry, this function is shut off for security reasons\n(and i don't want to be sued)";
+    suptic.textContent = "sorry, this function is shut off for security reasons\n(and i don't want to be sued)";
+}
+notava();
 regTic();
