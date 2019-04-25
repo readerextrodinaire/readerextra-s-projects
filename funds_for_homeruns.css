@@ -137,3 +137,7 @@ input {
     text-decoration: underline;
     text-decoration-color: silver; 
 }
+button {
+    border-radius: 5px;
+    color: black;
+}
