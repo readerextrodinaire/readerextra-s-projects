@@ -2,8 +2,8 @@ var
 /**
  * Constats
  */
-COLS = 36,
-ROWS = 27,
+COLS = 50,
+ROWS = 50,
 EMPTY = 0,
 SNAKE = 1,
 FRUIT = 2,
