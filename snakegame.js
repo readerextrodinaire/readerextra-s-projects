@@ -185,7 +185,7 @@ function update() {
 	if (keystate[KEY_DOWN] && snake.direction !== UP) {
 		snake.direction = DOWN;
 	}
-	if (frames%0.00007 === 0) {
+	if (frames%1 === 0) {
 		var nx = snake.last.x;
 		var ny = snake.last.y;
 		switch (snake.direction) {
