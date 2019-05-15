@@ -235,6 +235,12 @@ function draw() {
 					break;
 				case SNAKE:
 					ctx.fillStyle = "#060080";
+					if(score >= 10) {
+						ctx.fillStyle = "#007380";
+					}
+					if(score >= 20) {
+						ctx.fillStyle = "#008015";
+					}
 					break;
 				case FRUIT:
 					ctx.fillStyle = "#800019";
