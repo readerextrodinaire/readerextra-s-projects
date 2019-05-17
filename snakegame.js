@@ -2,8 +2,8 @@ var
 /**
  * Constats
  */
-COLS = 35,
-ROWS = 40,
+COLS = 32,
+ROWS = 32,
 EMPTY = 0,
 SNAKE = 1,
 FRUIT = 2,
@@ -236,10 +236,22 @@ function draw() {
 				case SNAKE:
 					ctx.fillStyle = "#060080";
 					if(score >= 10) {
-						ctx.fillStyle = "#007380";
+						ctx.fillStyle = "#006035";
 					}
 					if(score >= 20) {
-						ctx.fillStyle = "#008015";
+						ctx.fillStyle = "#605600";
+					}
+					if(score >= 30) {
+						ctx.fillStyle = "#600600";
+					}
+					if(score >= 40) {
+						ctx.fillStyle = "#460060";
+					}
+					if(score >= 50) {
+						ctx.fillStyle = "#60003e";
+					}
+					if(score >= 100) {
+						ctx.fillStyle = rgb(' + Math.floor(255 - 42.5 * i) + ', ' + Math.floor(255 - 42.5 * j) + ', 0)';
 					}
 					break;
 				case FRUIT:
