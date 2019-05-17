@@ -251,7 +251,7 @@ function draw() {
 						ctx.fillStyle = "#60003e";
 					}
 					if(score >= 100) {
-						ctx.fillStyle = rgb(' + Math.floor(255 - 42.5 * i) + ', ' + Math.floor(255 - 42.5 * j) + ', 0)';
+						ctx.fillStyle = "white";
 					}
 					break;
 				case FRUIT:
