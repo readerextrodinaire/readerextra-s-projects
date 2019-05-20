@@ -1,0 +1,35 @@
+.fakeimg {
+    height: 200px;
+    background-image: url(https://i2.wp.com/qededucationgroup.com/wp-content/uploads/2017/07/feature1_gifted-e1501145252476.jpg?resize=2000%2C900&ssl=1);
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    background-size: cover;
+}
+.space {
+    margin-bottom: 27px;
+}
+.img#1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbYCDml8cSXe5wi-GgNOO_Y00t-Oi1fc73x12A9We-RTg-Gg90w);
+}
+.img {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: grey;
+}
+.outline {
+    border-width: 0.4px;
+    border-color: lightgrey;
+    border-style: double;
+}
+.tiny {
+    font-size: 157%;
+}
+.dark {
+    background-color: rgb(3, 3, 54, 0.904);
+}
+.small {
+    font-size: 10px;
+    text-overflow: clip;
+}
