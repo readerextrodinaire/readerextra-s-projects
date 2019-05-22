@@ -2,8 +2,8 @@ var
 /**
  * Constats
  */
-COLS = 32,
-ROWS = 32,
+COLS = 30,
+ROWS = 30,
 EMPTY = 0,
 SNAKE = 1,
 FRUIT = 2,
@@ -185,7 +185,7 @@ function update() {
 	if (keystate[KEY_DOWN] && snake.direction !== UP) {
 		snake.direction = DOWN;
 	}
-	if (frames%5 === 0) {
+	if (frames%8 === 0) {
 		var nx = snake.last.x;
 		var ny = snake.last.y;
 		switch (snake.direction) {
@@ -232,6 +232,42 @@ function draw() {
 			switch (grid.get(x, y)) {
 				case EMPTY:
 					ctx.fillStyle = "#008000";
+					if(score === 4) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 14) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 24) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 34) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 44) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 54) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 64) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 74) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 84) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 94) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 104) {
+					        ctx.fillStyle = "red";
+					}
+					if(score === 444) {
+					        ctx.fillStyle = "red";
+					}
 					break;
 				case SNAKE:
 					ctx.fillStyle = "#060080";
