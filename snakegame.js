@@ -2,8 +2,8 @@ var
 /**
  * Constats
  */
-COLS = 30,
-ROWS = 30,
+COLS = 37,
+ROWS = 25,
 EMPTY = 0,
 SNAKE = 1,
 FRUIT = 2,
@@ -135,8 +135,8 @@ function main() {
 
     document.getElementById("stat").style.display = "none";
 	canvas = document.createElement("canvas");
-	canvas.width = COLS*20;
-	canvas.height = ROWS*20.5;
+	canvas.width = COLS*18;
+	canvas.height = ROWS*18;
 	ctx = canvas.getContext("2d");
 
 	document.body.appendChild(canvas);
