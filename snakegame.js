@@ -177,6 +177,7 @@ function init() {
 	snake.init(UP, sp.x, sp.y);
 	grid.set(SNAKE, sp.x, sp.y);
 	setFood();
+	setWall();
 }
 
 function loop() {
@@ -226,7 +227,11 @@ function update() {
 
 			score++;
 			setFood();
-			setwall();
+		}
+		if (grid.get(nx, ny) === WAll) {
+
+			var tail = snake.remove();
+			grid.set(EMPTY, tail.x, tail.y);
 		} else {
 			var tail = snake.remove();
 			grid.set(EMPTY, tail.x, tail.y);
