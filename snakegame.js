@@ -142,8 +142,8 @@ function setWall() {
 		}
 	}
 	
-	var randpos = empty[Math.round(Math.random()*(empty.length - 4))];
-	grid.set(WALL, randpos.x, randpos.y);
+	var randpos = empty[Math.round(Math.random()*(empty.length - 1))];
+	grid.set(WALL, randpos.x, randpos.y)*20;
 }
 function main() {
 
@@ -228,7 +228,7 @@ function update() {
 			score++;
 			setFood();
 		}
-		if (grid.get(nx, ny) === WAll) {
+		if (grid.get(nx, ny) === WALL) {
 
 			var tail = snake.remove();
 			grid.set(EMPTY, tail.x, tail.y);
