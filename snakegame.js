@@ -7,7 +7,6 @@ ROWS = 27,
 EMPTY = 0,
 SNAKE = 1,
 FRUIT = 2,
-WALL = 3,
 LEFT  = 0,
 UP    = 1,
 RIGHT = 2,
@@ -131,16 +130,6 @@ function setFood() {
 	var randpos = empty[Math.round(Math.random()*(empty.length - 1))];
 	grid.set(FRUIT, randpos.x, randpos.y);
 }
-function setWall() {
-	var empty = [];
-	
-	for (var x=0; x < grid.width; x++) {
-		for (var y=0; y < grid.height; y++) {
-			if (grid.get(x, y) === EMPTY) {
-				empty.push({x:x, y:y});
-			}
-		}
-	}
 	
 	var randpos = empty[Math.round(Math.random()*(empty.length - 1))];
 	grid.set(WALL, randpos.x, randpos.y)*20;
@@ -200,7 +189,7 @@ function update() {
 	if (keystate[KEY_DOWN] && snake.direction !== UP) {
 		snake.direction = DOWN;
 	}
-	if (frames%8 === 0) {
+	if (frames%4 === 0) {
 		var nx = snake.last.x;
 		var ny = snake.last.y;
 		switch (snake.direction) {
@@ -227,14 +216,6 @@ function update() {
 
 			score++;
 			setFood();
-		}
-		if (grid.get(nx, ny) === WALL) {
-
-			var tail = snake.remove();
-			grid.set(EMPTY, tail.x, tail.y);
-		} else {
-			var tail = snake.remove();
-			grid.set(EMPTY, tail.x, tail.y);
 		}
 
 		grid.set(SNAKE, nx, ny);
@@ -312,9 +293,6 @@ function draw() {
 					break;
 				case FRUIT:
 					ctx.fillStyle = "#800019";
-					break;
-				case WALL:
-					ctx.fillStyle = "grey";
 					break;
 			}
 			ctx.fillRect(x*tw, y*th, tw, th);
