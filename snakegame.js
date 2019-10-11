@@ -130,10 +130,7 @@ function setFood() {
 	var randpos = empty[Math.round(Math.random()*(empty.length - 1))];
 	grid.set(FRUIT, randpos.x, randpos.y);
 }
-	
-	var randpos = empty[Math.round(Math.random()*(empty.length - 1))];
-	grid.set(WALL, randpos.x, randpos.y)*20;
-}
+
 function main() {
 
     document.getElementById("stat").style.display = "none";
@@ -266,4 +263,5 @@ function draw() {
 	ctx.fillStyle = "#000";
 	ctx.fillText("SCORE: " + score, 10, canvas.height-10);
 }
+
 main();
