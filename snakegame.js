@@ -233,42 +233,6 @@ function draw() {
 			switch (grid.get(x, y)) {
 				case EMPTY:
 					ctx.fillStyle = "#008000";
-					if(score === 4) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 14) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 24) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 34) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 44) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 54) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 64) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 74) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 84) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 94) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 104) {
-					        ctx.fillStyle = "red";
-					}
-					if(score === 444) {
-					        ctx.fillStyle = "red";
-					}
 					break;
 				case SNAKE:
 					ctx.fillStyle = "#060080";
